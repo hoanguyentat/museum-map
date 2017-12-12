@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { ViewInfoComponent } from './view-info/view-info.component';
 import { MapInfoService } from './map-info.service';
 import { SafeHtmlPipe } from './safe-html.pipe';
+import { HomeComponent } from './home/home.component';
+import { MapViewComponent } from './map-view/map-view.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewInfoComponent,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    HomeComponent,
+    MapViewComponent
   ],
   imports: [
     BrowserModule,
