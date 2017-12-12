@@ -15,15 +15,15 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="navbar-collapse collapse" id="menuTop">
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Khu BTTN Việt Nam</a></li>
-                  <li><a href="map/vietnam/Tây Bắc.html">Tây Bắc</a></li>
-                  <li><a href="map/vietnam/Đồng Bắc.html">Đông Bắc</a></li>
-                  <li><a href="map/vietnam/Đồng Bằng Sông Hồng.html">ĐB S. Hồng</a></li>
-                  <li><a href="map/vietnam/Bắc Trung Bộ.html">Bắc Trung Bộ</a></li>
-                  <li><a href="map/vietnam/Nam Trung Bộ.html">Nam Trung Bộ</a></li>
-                  <li><a href="map/vietnam/Tây Nguyên.html">Tây Nguyên</a></li>
-                  <li><a href="map/vietnam/Đồng Bằng Sông Cửu Long.html">ĐB S. Cửu Long</a></li>
-                  <li><a href="map/vietnam/Đông Nam Bộ.html">Đông Nam Bộ</a></li>
+                  <li><a routerLink="trang-chu">Khu BTTN Việt Nam</a></li>
+                  <li><a routerLink="vung/tay-bac">Tây Bắc</a></li>
+                  <li><a routerLink="vung/dong-bac">Đông Bắc</a></li>
+                  <li><a routerLink="vung/dong-bang-song-hong">ĐB S. Hồng</a></li>
+                  <li><a routerLink="vung/bac-trung-bo">Bắc Trung Bộ</a></li>
+                  <li><a routerLink="vung/nam-trung-bo">Nam Trung Bộ</a></li>
+                  <li><a routerLink="vung/tay-nguyen">Tây Nguyên</a></li>
+                  <li><a routerLink="vung/dong-bang-song-cuu-long">ĐB S. Cửu Long</a></li>
+                  <li><a routerLink="vung/dong-nam-bo">Đông Nam Bộ</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right"></ul>
           </div>
@@ -32,12 +32,8 @@
       <!-- /.container-fluid -->
   </nav>
   
-  <div class="container">
-      <ul class="breadcrumb">
-          <li><a href="Index.html">Trang chủ</a></li>
-      </ul>
-  </div>
-  <app-view-info></app-view-info>
+  
+  <router-outlet></router-outlet>
   
   <div class="container-fluid">
       <div class="row">

@@ -10,6 +10,7 @@ import { MapInfoService } from './map-info.service';
 import { SafeHtmlPipe } from './safe-html.pipe';
 import { HomeComponent } from './home/home.component';
 import { MapViewComponent } from './map-view/map-view.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MapViewComponent } from './map-view/map-view.component';
   imports: [
     BrowserModule,
     LeafletModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [
     MapInfoService
