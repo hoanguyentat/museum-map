@@ -1,1 +1,150 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background: #f4f4f2;
+    line-height: 1.2;
+    font-size:14px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+hr {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.carousel-caption {
+    right: 2%;
+    left: 2%;
+    padding-bottom: 5px;
+}
+
+.border {
+    border-bottom: solid .1rem #dfdfdd;
+    border-right: solid .1rem #dfdfdd;
+}
+
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+.btn-default {
+color: #000;
+background-color: #eaeaea;
+border-color: #ccc;
+padding: 8px;
+}
+.bg-yellow {
+    color: #000;
+    background: none repeat scroll 0% 0% #FFFDD8;
+    border: 1px solid #EBE7A3;
+}
+.panel-body {
+    padding:15px 0px 15px 0px;
+}
+
+	::-webkit-scrollbar {
+	    width: 12px;
+	}
+	::-webkit-scrollbar-track {
+	    background-color: #eaeaea;
+	    border-left: 1px solid #ccc;
+	}
+	::-webkit-scrollbar-thumb {
+	    background-color: #ccc;
+	}
+	::-webkit-scrollbar-thumb:hover {
+	    background-color: #aaa;
+	}
+    /*menu*/
+.navbar-inverse {
+    background-color:#2D4C93;
+    border-color: #2d8bdc;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #1967be;
+        color: #ffffff;
+    }
+
+.navbar {
+    min-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border: 0px solid;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    padding: 10px 10px;
+    height: 30px;
+}
+
+.navbar-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 10px 10px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+}
+/*end menu*/
+    @media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px !important;
+    }
+}
+
+
+
+/*# sourceMappingURL=bootstrap.css.map */
+
+.info {
+    padding: 6px 8px !important;
+    font: 14px/16px Arial, Helvetica, sans-serif !important;
+    background: white !important;
+    background: rgba(255,255,255,0.8) !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2) !important;
+    border-radius: 5px !important;
+}
+.info h4 {
+    margin: 0 0 5px !important;
+    color: #777 !important;
+}
