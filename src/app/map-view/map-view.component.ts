@@ -153,4 +153,8 @@ export class MapViewComponent implements OnInit, OnChanges {
     this.map = map;
   }
 
+  flyToBounds(bounds: L.LatLngBounds): void {
+    this.map.flyToBounds(bounds);
+  }
+
 }
