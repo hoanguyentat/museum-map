@@ -1,12 +1,12 @@
 .search-result {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     list-style-type: none;
     /* padding: 0; */
   }
   .search-result li {
     position: relative;
     cursor: pointer;
-    background-color: #EEE;
+    background-color: #fff;
     /* margin-top: .5em; */
     /* padding: 5px;; */
     /* height: 1.6em; */

@@ -2,7 +2,8 @@
 
   <div id="mySidenav" class="sidenav">
     <a class="closebtn" (click)="closeNav()">&times;</a>
-    <input #searchBox type="text" class="form-control" placeholder="Tên vườn quốc gia" (keyup)="search(searchBox.value)" style="width: 250px;"/>
+    <h3>Function</h3>
+    <input #searchBox type="text" class="" placeholder="Tên vườn quốc gia" (keyup)="search(searchBox.value)" style="width: 250px; padding: 7px 5px; border: 1px solid #ddd"/>
     <ul class="search-result list-group">
         <li class="list-group-item" *ngFor="let naturalPark of naturalParks$ | async " 
         (click)="clickOnNaturalPark(naturalPark)">
@@ -13,7 +14,7 @@
     </div>
   </div>
 
-  <span style="font-size:30px;cursor:pointer" (click)="openNav()"> &#9776; </span>
+  <span style="font-size:20px;cursor:pointer" (click)="openNav()"> &#9776; </span>
   <div class="row">
     <div id="loadVung" style="background:#fff;">
       <app-map-view [regionConfig]="regionConfig" [provincesData]="provincesData" [natureParksData]="natureParksData"></app-map-view>
